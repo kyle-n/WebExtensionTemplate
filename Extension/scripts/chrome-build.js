@@ -1,27 +1,27 @@
-const fs = require('fs/promises');
-const JSZip = require('jszip');
-const { saveAs } = require('file-saver');
+const fs = require('fs-extra');
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
+const zipper = require('zip-local');
 
 main();
 
 async function main() {
   await exec('npm run build:prod');
   const chromeDir = 'chrome-extension';
-  await fs.rmdir(chromeDir);
+  if (fs.existsSync(chromeDir)) {
+    await fs.rm(chromeDir, { recursive: true });
+  }
   await fs.mkdir(chromeDir);
-  await fs.cp('_locales', chromeDir + '/');
-  await fs.cp('dist', chromeDir + '/');
-  await fs.cp('images', chromeDir + '/');
-  await fs.cp('public', chromeDir + '/');
-  await fs.cp('manifest.json', chromeDir + '/');
+  const zipContents = ['_locales', 'dist', 'images', 'public', 'manifest.json'];
+  for await (const filename of zipContents) {
+    await fs.copy(filename, `${chromeDir}/${filename}`);
+  }
 
-  const zip = new JSZip();
-  zip.folder(chromeDir);
-  const blob = await zip.generateAsync({ type: 'blob' });
-  saveAs(blob, chromeDir + '.zip');
+  zipper.sync
+    .zip(chromeDir)
+    .compress()
+    .save(chromeDir + '.zip');
 
-  await fs.rmdir(chromeDir);
+  await fs.rm(chromeDir, { recursive: true });
   console.log('Built for Chrome');
 }
