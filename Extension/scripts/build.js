@@ -4,9 +4,9 @@ const sveltePreprocess = require('svelte-preprocess');
 
 const isProdBuild = process.argv.includes('--prod');
 
-main();
+build();
 
-async function main() {
+async function build() {
   const commonConfig = {
     outbase: './src',
     platform: 'browser',
