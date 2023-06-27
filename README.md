@@ -6,7 +6,7 @@ WebExtensionTemplate lets you skip the boilerplate and write a [Web Extension](h
 
 ## Setup
 
-First, fork this repository. Then, follow the steps below.
+First, fork this repository. Then, follow the steps below. By the end of this, you should be able to search across the project for `REPLACEME` and get no results.
 
 ### All browsers
 
