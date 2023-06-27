@@ -7,7 +7,8 @@
     "format": "prettier --write .",
     "build": "node scripts/build.js",
     "build:prod": "node scripts/prod-build.js",
-    "build:chrome": "scripts/chrome-build.sh"
+    "build:chrome": "scripts/chrome-build.sh",
+    "build:firefox": "scripts/firefox-build.sh"
   },
   "keywords": [],
   "author": "REPLACEME",
