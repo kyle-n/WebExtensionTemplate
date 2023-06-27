@@ -1,4 +1,4 @@
-export type BrowserMessageType = 'gotSettings' | 'openedBGA' | 'getColorScheme';
+export type BrowserMessageType = 'getColorScheme' | 'gotColorScheme';
 
 export type BrowserMessage = {
   type: BrowserMessageType;
@@ -6,19 +6,11 @@ export type BrowserMessage = {
 };
 
 export type AppSettings = {
-  muteChat: boolean;
-  hideGeneralChat: boolean;
-  hidePrivateChats: boolean;
-  hideTableChats: boolean;
-  isActive: boolean;
+  displayHelpMessage: boolean;
 };
 
 export const DEFAULT_SETTINGS: AppSettings = {
-  muteChat: true,
-  hideGeneralChat: true,
-  hidePrivateChats: false,
-  hideTableChats: true,
-  isActive: true
+  displayHelpMessage: true
 };
 
 export type ColorScheme = 'light' | 'dark';

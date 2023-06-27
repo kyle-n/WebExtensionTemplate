@@ -1,5 +1,5 @@
 {
-  "name": "resources",
+  "name": "REPLACEME",
   "version": "1.0.0",
   "description": "",
   "main": "background.js",
@@ -10,8 +10,8 @@
     "build:chrome": "scripts/chrome-build.sh"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "REPLACEME",
+  "license": "MIT",
   "devDependencies": {
     "@tsconfig/svelte": "^4.0.1",
     "@types/webextension-polyfill": "^0.10.0",
