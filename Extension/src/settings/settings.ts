@@ -1,2 +1,2 @@
-import App from './app.svelte';
+import App from './settings.svelte';
 new App({ target: document.body });
