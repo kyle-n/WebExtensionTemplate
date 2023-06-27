@@ -2,7 +2,7 @@
 
 Create a browser extension for Chrome, Firefox and Safari in no time.
 
-WebExtensionTemplate lets you skip the boilerplate and write a [Web Extension](https://developer.mozilla.org/en-US/docs/Glossary/WebExtensions) with [TypeScript](https://www.typescriptlang.org) and [Svelte](https://www.typescriptlang.org). Builds are lightning fast with [esbuild](https://esbuild.github.io). 
+WebExtensionTemplate lets you skip the boilerplate and write a [Web Extension](https://developer.mozilla.org/en-US/docs/Glossary/WebExtensions) with [TypeScript](https://www.typescriptlang.org) and [Svelte](https://www.typescriptlang.org).
 
 ## Setup
 
@@ -61,13 +61,13 @@ Note: “Open the project config” means double-click the app name at the top o
 
 ## Building your extension
 
-All `npm` commands should be run in `Extension`.
+All `npm` commands should be run in `Extension`. Safari extensions should be built in Xcode. 
 
 | browser | local | production |
 | - | - | - |
-| chrome | `npm run build` | `npm run build:chrome` |
-| firefox | `npm run build` | `npm run build:firefox` |
-| safari | Product > Build in Xcode | Product > Archive in Xcode |
+| Chrome | `npm run build` | `npm run build:chrome` |
+| Firefox | `npm run build` | `npm run build:firefox` |
+| Safari | Product > Build | Product > Archive |
 
 - `console.log` calls are stripped out of prod builds
 - The Chrome build script generates a zip that can be uploaded to the Chrome Web Store
