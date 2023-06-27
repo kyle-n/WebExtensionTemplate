@@ -1,5 +1,4 @@
 const { build } = require('esbuild');
-const util = require('util');
 const sveltePlugin = require('esbuild-svelte');
 const sveltePreprocess = require('svelte-preprocess');
 
@@ -31,13 +30,10 @@ async function main() {
   });
 
   const settingsJob = build({
+    ...commonConfig,
     entryPoints: ['./src/settings/settings.ts'],
-    bundle: true,
     outdir: './dist',
     mainFields: ['svelte', 'module', 'main', 'browser'],
-    minify: isProdBuild,
-    drop: isProdBuild ? ['console'] : undefined,
-    sourcemap: !isProdBuild,
     plugins: [
       sveltePlugin({
         preprocess: sveltePreprocess()
