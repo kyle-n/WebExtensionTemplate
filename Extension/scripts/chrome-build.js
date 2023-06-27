@@ -4,9 +4,9 @@ const { saveAs } = require('file-saver');
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 
-build();
+main();
 
-async function build() {
+async function main() {
   await exec('npm run build:prod');
   const chromeDir = 'chrome-extension';
   await fs.rmdir(chromeDir);

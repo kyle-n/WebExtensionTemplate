@@ -23,6 +23,7 @@
 </script>
 
 {#if appSettings}
+  <h1>Settings</h1>
   <section>
     <form>
       <div class="form-group">
@@ -40,7 +41,7 @@
 {/if}
 
 <style>
-  p {
-    padding: 0.75em 0;
+  h1 {
+    padding: 1em 0;
   }
 </style>
