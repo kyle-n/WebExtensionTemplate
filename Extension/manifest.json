@@ -1,0 +1,53 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+
+  "name": "__MSG_extension_name__",
+  "description": "__MSG_extension_description__",
+  "version": "1.0.0",
+
+  "icons": {
+    "48": "images/app_icon_48px.png",
+    "96": "images/app_icon_96px.png",
+    "128": "images/app_icon_128px.png",
+    "256": "images/app_icon_256px.png",
+    "512": "images/app_icon_512px.png"
+  },
+
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+
+  "host_permissions": [],
+
+  "content_scripts": [
+    {
+      "js": ["dist/content.js"],
+      "matches": ["*://example.com/*"]
+    }
+  ],
+
+  "action": {
+    "default_icon": {
+      "16": "images/toolbar_16px.png",
+      "19": "images/toolbar_19px.png",
+      "32": "images/toolbar_32px.png",
+      "38": "images/toolbar_38px.png",
+      "48": "images/toolbar_48px.png",
+      "72": "images/toolbar_72px.png"
+    }
+  },
+
+  "permissions": [],
+
+  "options_ui": {
+    "page": "public/settings.html",
+    "open_in_tab": true
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "REPLACEME"
+    }
+  }
+}

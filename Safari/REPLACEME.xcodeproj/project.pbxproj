@@ -1,0 +1,1013 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308C56572A27BF1C005C001E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C56562A27BF1C005C001E /* AppDelegate.swift */; };
+		308C56592A27BF1C005C001E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C56582A27BF1C005C001E /* SceneDelegate.swift */; };
+		308C565C2A27BF1C005C001E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308C565A2A27BF1C005C001E /* LaunchScreen.storyboard */; };
+		308C565F2A27BF1C005C001E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308C565D2A27BF1C005C001E /* Main.storyboard */; };
+		308C56682A27BF1C005C001E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C56672A27BF1C005C001E /* AppDelegate.swift */; };
+		308C566B2A27BF1C005C001E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308C56692A27BF1C005C001E /* Main.storyboard */; };
+		308C56722A27BF1C005C001E /* REPLACEME Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 308C56712A27BF1C005C001E /* REPLACEME Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		308C567C2A27BF1C005C001E /* REPLACEME Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 308C567B2A27BF1C005C001E /* REPLACEME Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		308C56822A27BF1C005C001E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 308C563D2A27BF1A005C001E /* Main.html */; };
+		308C56832A27BF1C005C001E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 308C563D2A27BF1A005C001E /* Main.html */; };
+		308C56862A27BF1C005C001E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 308C56402A27BF1A005C001E /* Style.css */; };
+		308C56872A27BF1C005C001E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 308C56402A27BF1A005C001E /* Style.css */; };
+		308C56882A27BF1C005C001E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 308C56412A27BF1A005C001E /* Script.js */; };
+		308C56892A27BF1C005C001E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 308C56412A27BF1A005C001E /* Script.js */; };
+		308C568A2A27BF1C005C001E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C56422A27BF1A005C001E /* ViewController.swift */; };
+		308C568B2A27BF1C005C001E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C56422A27BF1A005C001E /* ViewController.swift */; };
+		308C568C2A27BF1C005C001E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308C56432A27BF1C005C001E /* Assets.xcassets */; };
+		308C568D2A27BF1C005C001E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308C56432A27BF1C005C001E /* Assets.xcassets */; };
+		308C568E2A27BF1C005C001E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C56452A27BF1C005C001E /* SafariWebExtensionHandler.swift */; };
+		308C568F2A27BF1C005C001E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C56452A27BF1C005C001E /* SafariWebExtensionHandler.swift */; };
+		30A8D0632A29467500FD77A6 /* iOS Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A8D0622A29467500FD77A6 /* iOS Assets.xcassets */; };
+		30A8D0642A29467500FD77A6 /* iOS Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A8D0622A29467500FD77A6 /* iOS Assets.xcassets */; };
+		30A8D0662A29469A00FD77A6 /* macOS Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */; };
+		30A8D0672A29469A00FD77A6 /* macOS Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */; };
+		30EEF6B32A2D065A0054F1C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 30EEF6B22A2D065A0054F1C3 /* Icon.png */; };
+		30EEF6B42A2D065A0054F1C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 30EEF6B22A2D065A0054F1C3 /* Icon.png */; };
+		99B502F72A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
+		99B502F82A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		308C56732A27BF1C005C001E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 308C56372A27BF1A005C001E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308C56702A27BF1C005C001E;
+			remoteInfo = "Mute Chat for BoardGameArena Extension (iOS)";
+		};
+		308C567D2A27BF1C005C001E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 308C56372A27BF1A005C001E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308C567A2A27BF1C005C001E;
+			remoteInfo = "Mute Chat for BoardGameArena Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		308C56A52A27BF1C005C001E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				308C56722A27BF1C005C001E /* REPLACEME Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C56AC2A27BF1C005C001E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				308C567C2A27BF1C005C001E /* REPLACEME Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		308C563E2A27BF1A005C001E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		308C56402A27BF1A005C001E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		308C56412A27BF1A005C001E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		308C56422A27BF1A005C001E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		308C56432A27BF1C005C001E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		308C56452A27BF1C005C001E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		308C56532A27BF1C005C001E /* REPLACEME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REPLACEME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308C56562A27BF1C005C001E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		308C56582A27BF1C005C001E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		308C565B2A27BF1C005C001E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		308C565E2A27BF1C005C001E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		308C56602A27BF1C005C001E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308C56652A27BF1C005C001E /* REPLACEME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REPLACEME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308C56672A27BF1C005C001E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		308C566A2A27BF1C005C001E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		308C566C2A27BF1C005C001E /* Mute Chat for BoardGameArena.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mute Chat for BoardGameArena.entitlements"; sourceTree = "<group>"; };
+		308C56712A27BF1C005C001E /* REPLACEME Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "REPLACEME Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		308C56762A27BF1C005C001E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308C567B2A27BF1C005C001E /* REPLACEME Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "REPLACEME Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		308C56802A27BF1C005C001E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308C56812A27BF1C005C001E /* Mute Chat for BoardGameArena.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mute Chat for BoardGameArena.entitlements"; sourceTree = "<group>"; };
+		30A8D0622A29467500FD77A6 /* iOS Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "iOS Assets.xcassets"; sourceTree = "<group>"; };
+		30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "macOS Assets.xcassets"; sourceTree = "<group>"; };
+		30EEF6B22A2D065A0054F1C3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		99B502F62A4B3E4D006397D1 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extension; path = ../../Extension; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		308C56502A27BF1C005C001E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C56622A27BF1C005C001E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C566E2A27BF1C005C001E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C56782A27BF1C005C001E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		308C56362A27BF1A005C001E = {
+			isa = PBXGroup;
+			children = (
+				308C563B2A27BF1A005C001E /* Shared (App) */,
+				308C56442A27BF1C005C001E /* Shared (Extension) */,
+				308C56552A27BF1C005C001E /* iOS (App) */,
+				308C56662A27BF1C005C001E /* macOS (App) */,
+				308C56752A27BF1C005C001E /* iOS (Extension) */,
+				308C567F2A27BF1C005C001E /* macOS (Extension) */,
+				308C56542A27BF1C005C001E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		308C563B2A27BF1A005C001E /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				308C56422A27BF1A005C001E /* ViewController.swift */,
+				308C56432A27BF1C005C001E /* Assets.xcassets */,
+				308C563C2A27BF1A005C001E /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		308C563C2A27BF1A005C001E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				308C563D2A27BF1A005C001E /* Main.html */,
+				30EEF6B22A2D065A0054F1C3 /* Icon.png */,
+				308C56402A27BF1A005C001E /* Style.css */,
+				308C56412A27BF1A005C001E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		308C56442A27BF1C005C001E /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				99B502F62A4B3E4D006397D1 /* Extension */,
+				308C56452A27BF1C005C001E /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		308C56542A27BF1C005C001E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				308C56532A27BF1C005C001E /* REPLACEME.app */,
+				308C56652A27BF1C005C001E /* REPLACEME.app */,
+				308C56712A27BF1C005C001E /* REPLACEME Extension.appex */,
+				308C567B2A27BF1C005C001E /* REPLACEME Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308C56552A27BF1C005C001E /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				308C56562A27BF1C005C001E /* AppDelegate.swift */,
+				308C56582A27BF1C005C001E /* SceneDelegate.swift */,
+				308C565A2A27BF1C005C001E /* LaunchScreen.storyboard */,
+				308C565D2A27BF1C005C001E /* Main.storyboard */,
+				308C56602A27BF1C005C001E /* Info.plist */,
+				30A8D0622A29467500FD77A6 /* iOS Assets.xcassets */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		308C56662A27BF1C005C001E /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				308C56672A27BF1C005C001E /* AppDelegate.swift */,
+				30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */,
+				308C56692A27BF1C005C001E /* Main.storyboard */,
+				308C566C2A27BF1C005C001E /* Mute Chat for BoardGameArena.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		308C56752A27BF1C005C001E /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				308C56762A27BF1C005C001E /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		308C567F2A27BF1C005C001E /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				308C56802A27BF1C005C001E /* Info.plist */,
+				308C56812A27BF1C005C001E /* Mute Chat for BoardGameArena.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		308C56522A27BF1C005C001E /* REPLACEME (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308C56A62A27BF1C005C001E /* Build configuration list for PBXNativeTarget "REPLACEME (iOS)" */;
+			buildPhases = (
+				308C564F2A27BF1C005C001E /* Sources */,
+				308C56502A27BF1C005C001E /* Frameworks */,
+				308C56512A27BF1C005C001E /* Resources */,
+				308C56A52A27BF1C005C001E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				308C56742A27BF1C005C001E /* PBXTargetDependency */,
+			);
+			name = "REPLACEME (iOS)";
+			productName = "Mute Chat for BoardGameArena (iOS)";
+			productReference = 308C56532A27BF1C005C001E /* REPLACEME.app */;
+			productType = "com.apple.product-type.application";
+		};
+		308C56642A27BF1C005C001E /* REPLACEME (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308C56AD2A27BF1C005C001E /* Build configuration list for PBXNativeTarget "REPLACEME (macOS)" */;
+			buildPhases = (
+				308C56612A27BF1C005C001E /* Sources */,
+				308C56622A27BF1C005C001E /* Frameworks */,
+				308C56632A27BF1C005C001E /* Resources */,
+				308C56AC2A27BF1C005C001E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				308C567E2A27BF1C005C001E /* PBXTargetDependency */,
+			);
+			name = "REPLACEME (macOS)";
+			productName = "Mute Chat for BoardGameArena (macOS)";
+			productReference = 308C56652A27BF1C005C001E /* REPLACEME.app */;
+			productType = "com.apple.product-type.application";
+		};
+		308C56702A27BF1C005C001E /* REPLACEME Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308C56A22A27BF1C005C001E /* Build configuration list for PBXNativeTarget "REPLACEME Extension (iOS)" */;
+			buildPhases = (
+				308C566D2A27BF1C005C001E /* Sources */,
+				308C56B32A27C579005C001E /* Build Extension */,
+				308C56B42A27C5EC005C001E /* Build Extension (Production) */,
+				308C566E2A27BF1C005C001E /* Frameworks */,
+				308C566F2A27BF1C005C001E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "REPLACEME Extension (iOS)";
+			productName = "Mute Chat for BoardGameArena Extension (iOS)";
+			productReference = 308C56712A27BF1C005C001E /* REPLACEME Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		308C567A2A27BF1C005C001E /* REPLACEME Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308C56A92A27BF1C005C001E /* Build configuration list for PBXNativeTarget "REPLACEME Extension (macOS)" */;
+			buildPhases = (
+				308C56772A27BF1C005C001E /* Sources */,
+				308C56B52A27C651005C001E /* Build Extension */,
+				308C56B62A27C662005C001E /* Build Extension (Production) */,
+				308C56782A27BF1C005C001E /* Frameworks */,
+				308C56792A27BF1C005C001E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "REPLACEME Extension (macOS)";
+			productName = "Mute Chat for BoardGameArena Extension (macOS)";
+			productReference = 308C567B2A27BF1C005C001E /* REPLACEME Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		308C56372A27BF1A005C001E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					308C56522A27BF1C005C001E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					308C56642A27BF1C005C001E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					308C56702A27BF1C005C001E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					308C567A2A27BF1C005C001E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 308C563A2A27BF1A005C001E /* Build configuration list for PBXProject "REPLACEME" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 308C56362A27BF1A005C001E;
+			productRefGroup = 308C56542A27BF1C005C001E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				308C56522A27BF1C005C001E /* REPLACEME (iOS) */,
+				308C56642A27BF1C005C001E /* REPLACEME (macOS) */,
+				308C56702A27BF1C005C001E /* REPLACEME Extension (iOS) */,
+				308C567A2A27BF1C005C001E /* REPLACEME Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		308C56512A27BF1C005C001E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EEF6B32A2D065A0054F1C3 /* Icon.png in Resources */,
+				308C565C2A27BF1C005C001E /* LaunchScreen.storyboard in Resources */,
+				308C56822A27BF1C005C001E /* Main.html in Resources */,
+				308C56882A27BF1C005C001E /* Script.js in Resources */,
+				308C568C2A27BF1C005C001E /* Assets.xcassets in Resources */,
+				30A8D0632A29467500FD77A6 /* iOS Assets.xcassets in Resources */,
+				308C565F2A27BF1C005C001E /* Main.storyboard in Resources */,
+				308C56862A27BF1C005C001E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C56632A27BF1C005C001E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308C56872A27BF1C005C001E /* Style.css in Resources */,
+				308C566B2A27BF1C005C001E /* Main.storyboard in Resources */,
+				308C56892A27BF1C005C001E /* Script.js in Resources */,
+				308C568D2A27BF1C005C001E /* Assets.xcassets in Resources */,
+				30EEF6B42A2D065A0054F1C3 /* Icon.png in Resources */,
+				308C56832A27BF1C005C001E /* Main.html in Resources */,
+				30A8D0662A29469A00FD77A6 /* macOS Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C566F2A27BF1C005C001E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B502F72A4B3E4D006397D1 /* Extension in Resources */,
+				30A8D0642A29467500FD77A6 /* iOS Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C56792A27BF1C005C001E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B502F82A4B3E4D006397D1 /* Extension in Resources */,
+				30A8D0672A29469A00FD77A6 /* macOS Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		308C56B32A27C579005C001E /* Build Extension */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Extension";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd '/Users/tester/Developer/Mute Chat for BoardGameArena/Shared (Extension)/Resources'\nnpm run build\n";
+		};
+		308C56B42A27C5EC005C001E /* Build Extension (Production) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Extension (Production)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd '/Users/tester/Developer/Mute Chat for BoardGameArena/Shared (Extension)/Resources'\nnpm run build:prod\n";
+		};
+		308C56B52A27C651005C001E /* Build Extension */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Extension";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd '/Users/tester/Developer/Mute Chat for BoardGameArena/Shared (Extension)/Resources'\nnpm run build\n";
+		};
+		308C56B62A27C662005C001E /* Build Extension (Production) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Extension (Production)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd '/Users/tester/Developer/Mute Chat for BoardGameArena/Shared (Extension)/Resources'\nnpm run build:prod\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		308C564F2A27BF1C005C001E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308C568A2A27BF1C005C001E /* ViewController.swift in Sources */,
+				308C56572A27BF1C005C001E /* AppDelegate.swift in Sources */,
+				308C56592A27BF1C005C001E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C56612A27BF1C005C001E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308C568B2A27BF1C005C001E /* ViewController.swift in Sources */,
+				308C56682A27BF1C005C001E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C566D2A27BF1C005C001E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308C568E2A27BF1C005C001E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C56772A27BF1C005C001E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308C568F2A27BF1C005C001E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		308C56742A27BF1C005C001E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308C56702A27BF1C005C001E /* REPLACEME Extension (iOS) */;
+			targetProxy = 308C56732A27BF1C005C001E /* PBXContainerItemProxy */;
+		};
+		308C567E2A27BF1C005C001E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308C567A2A27BF1C005C001E /* REPLACEME Extension (macOS) */;
+			targetProxy = 308C567D2A27BF1C005C001E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		308C563D2A27BF1A005C001E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308C563E2A27BF1A005C001E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		308C565A2A27BF1C005C001E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308C565B2A27BF1C005C001E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		308C565D2A27BF1C005C001E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308C565E2A27BF1C005C001E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		308C56692A27BF1C005C001E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308C566A2A27BF1C005C001E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		308C56A02A27BF1C005C001E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		308C56A12A27BF1C005C001E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		308C56A32A27BF1C005C001E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = REPLACEME;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = REPLACEME;
+				PRODUCT_NAME = "REPLACEME Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		308C56A42A27BF1C005C001E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = REPLACEME;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = REPLACEME;
+				PRODUCT_NAME = "REPLACEME Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		308C56A72A27BF1C005C001E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = REPLACEME;
+				PRODUCT_NAME = REPLACEME;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		308C56A82A27BF1C005C001E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = REPLACEME;
+				PRODUCT_NAME = REPLACEME;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		308C56AA2A27BF1C005C001E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/REPLACEME.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = REPLACEME;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = REPLACEME;
+				PRODUCT_NAME = "REPLACEME Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		308C56AB2A27BF1C005C001E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/REPLACEME.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = REPLACEME;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = REPLACEME;
+				PRODUCT_NAME = "REPLACEME Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		308C56AE2A27BF1C005C001E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/REPLACEME.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = REPLACEME;
+				PRODUCT_NAME = REPLACEME;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		308C56AF2A27BF1C005C001E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/REPLACEME.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = REPLACEME;
+				PRODUCT_NAME = REPLACEME;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		308C563A2A27BF1A005C001E /* Build configuration list for PBXProject "REPLACEME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308C56A02A27BF1C005C001E /* Debug */,
+				308C56A12A27BF1C005C001E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308C56A22A27BF1C005C001E /* Build configuration list for PBXNativeTarget "REPLACEME Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308C56A32A27BF1C005C001E /* Debug */,
+				308C56A42A27BF1C005C001E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308C56A62A27BF1C005C001E /* Build configuration list for PBXNativeTarget "REPLACEME (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308C56A72A27BF1C005C001E /* Debug */,
+				308C56A82A27BF1C005C001E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308C56A92A27BF1C005C001E /* Build configuration list for PBXNativeTarget "REPLACEME Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308C56AA2A27BF1C005C001E /* Debug */,
+				308C56AB2A27BF1C005C001E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308C56AD2A27BF1C005C001E /* Build configuration list for PBXNativeTarget "REPLACEME (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308C56AE2A27BF1C005C001E /* Debug */,
+				308C56AF2A27BF1C005C001E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 308C56372A27BF1A005C001E /* Project object */;
+}

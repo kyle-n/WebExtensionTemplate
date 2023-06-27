@@ -1,0 +1,5 @@
+.DS_Store
+**/node_modules
+**/xcdebugger
+Extension/dist
+Shared\ (Extension)/Resources/dist/
