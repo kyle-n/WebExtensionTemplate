@@ -1,6 +1,6 @@
 # WebExtensionTemplate
 
-Create a new browser extension that runs on Chrome, Firefox and Safari in no time.
+Create a browser extension for Chrome, Firefox and Safari in no time.
 
 WebExtensionTemplate lets you skip the boilerplate and write a [Web Extension](https://developer.mozilla.org/en-US/docs/Glossary/WebExtensions) with [TypeScript](https://www.typescriptlang.org) and [Svelte](https://www.typescriptlang.org). Builds are lightning fast with [esbuild](https://esbuild.github.io). 
 
