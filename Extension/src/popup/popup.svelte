@@ -2,10 +2,13 @@
   console.log('hello from the popup!');
 </script>
 
-<h1>My New Web Extension</h1>
+<div>
+  <h1>My New Web Extension</h1>
+</div>
 
 <style>
-  h1 {
-    color: blue;
+  div {
+    display: flex;
+    justify-content: center;
   }
 </style>
