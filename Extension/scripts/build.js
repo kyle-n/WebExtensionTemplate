@@ -29,6 +29,18 @@ async function main() {
     outfile: './dist/background.js'
   });
 
+  const popupJob = build({
+    ...commonConfig,
+    entryPoints: ['./src/popup/popup.ts'],
+    outdir: './dist',
+    mainFields: ['svelte', 'module', 'main', 'browser'],
+    plugins: [
+      sveltePlugin({
+        preprocess: sveltePreprocess()
+      })
+    ]
+  });
+
   const settingsJob = build({
     ...commonConfig,
     entryPoints: ['./src/settings/settings.ts'],
@@ -41,7 +53,7 @@ async function main() {
     ]
   });
 
-  return Promise.all([contentJob, backgroundJob, settingsJob]).then(() =>
-    console.log('⚡ Compiled')
+  return Promise.all([contentJob, backgroundJob, popupJob, settingsJob]).then(
+    () => console.log('⚡ Compiled')
   );
 }

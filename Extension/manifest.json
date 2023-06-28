@@ -28,6 +28,7 @@
   ],
 
   "action": {
+    "default_popup": "public/popup.html",
     "default_icon": {
       "16": "images/toolbar_16px.png",
       "19": "images/toolbar_19px.png",
