@@ -35,6 +35,8 @@
 		30EEF6B42A2D065A0054F1C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 30EEF6B22A2D065A0054F1C3 /* Icon.png */; };
 		99B502F72A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
 		99B502F82A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
+		99B502FD2A4CC30A006397D1 /* HelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B502FC2A4CC30A006397D1 /* HelperView.swift */; };
+		99B502FE2A4CC30A006397D1 /* HelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B502FC2A4CC30A006397D1 /* HelperView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,7 @@
 		30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "macOS Assets.xcassets"; sourceTree = "<group>"; };
 		30EEF6B22A2D065A0054F1C3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		99B502F62A4B3E4D006397D1 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extension; path = ../../Extension; sourceTree = "<group>"; };
+		99B502FC2A4CC30A006397D1 /* HelperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				308C56422A27BF1A005C001E /* ViewController.swift */,
+				99B502FC2A4CC30A006397D1 /* HelperView.swift */,
 				308C56432A27BF1C005C001E /* Assets.xcassets */,
 				308C563C2A27BF1A005C001E /* Resources */,
 			);
@@ -490,6 +494,7 @@
 			files = (
 				308C568A2A27BF1C005C001E /* ViewController.swift in Sources */,
 				308C56572A27BF1C005C001E /* AppDelegate.swift in Sources */,
+				99B502FD2A4CC30A006397D1 /* HelperView.swift in Sources */,
 				308C56592A27BF1C005C001E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +505,7 @@
 			files = (
 				308C568B2A27BF1C005C001E /* ViewController.swift in Sources */,
 				308C56682A27BF1C005C001E /* AppDelegate.swift in Sources */,
+				99B502FE2A4CC30A006397D1 /* HelperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -908,7 +914,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -943,7 +949,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
