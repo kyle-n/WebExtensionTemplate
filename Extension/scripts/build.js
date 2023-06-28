@@ -32,6 +32,7 @@ async function main() {
   const popupJob = build({
     ...commonConfig,
     entryPoints: ['./src/popup/popup.ts'],
+    outbase: './src/popup',
     outdir: './dist',
     mainFields: ['svelte', 'module', 'main', 'browser'],
     plugins: [
@@ -44,6 +45,7 @@ async function main() {
   const settingsJob = build({
     ...commonConfig,
     entryPoints: ['./src/settings/settings.ts'],
+    outbase: './src/settings',
     outdir: './dist',
     mainFields: ['svelte', 'module', 'main', 'browser'],
     plugins: [
