@@ -39,7 +39,7 @@
     }
   },
 
-  "permissions": [],
+  "permissions": ["storage"],
 
   "options_ui": {
     "page": "public/settings.html",
