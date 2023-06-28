@@ -9,3 +9,4 @@ Extension/dist
 **/xcdebugger
 Shared\ (Extension)/Resources/dist/
 **/xcuserdata
+**/*.xcuserstate
