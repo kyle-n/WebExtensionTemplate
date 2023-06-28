@@ -12,17 +12,8 @@
 		308C565C2A27BF1C005C001E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308C565A2A27BF1C005C001E /* LaunchScreen.storyboard */; };
 		308C565F2A27BF1C005C001E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308C565D2A27BF1C005C001E /* Main.storyboard */; };
 		308C56682A27BF1C005C001E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C56672A27BF1C005C001E /* AppDelegate.swift */; };
-		308C566B2A27BF1C005C001E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308C56692A27BF1C005C001E /* Main.storyboard */; };
 		308C56722A27BF1C005C001E /* REPLACEME Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 308C56712A27BF1C005C001E /* REPLACEME Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		308C567C2A27BF1C005C001E /* REPLACEME Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 308C567B2A27BF1C005C001E /* REPLACEME Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		308C56822A27BF1C005C001E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 308C563D2A27BF1A005C001E /* Main.html */; };
-		308C56832A27BF1C005C001E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 308C563D2A27BF1A005C001E /* Main.html */; };
-		308C56862A27BF1C005C001E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 308C56402A27BF1A005C001E /* Style.css */; };
-		308C56872A27BF1C005C001E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 308C56402A27BF1A005C001E /* Style.css */; };
-		308C56882A27BF1C005C001E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 308C56412A27BF1A005C001E /* Script.js */; };
-		308C56892A27BF1C005C001E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 308C56412A27BF1A005C001E /* Script.js */; };
-		308C568A2A27BF1C005C001E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C56422A27BF1A005C001E /* ViewController.swift */; };
-		308C568B2A27BF1C005C001E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C56422A27BF1A005C001E /* ViewController.swift */; };
 		308C568C2A27BF1C005C001E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308C56432A27BF1C005C001E /* Assets.xcassets */; };
 		308C568D2A27BF1C005C001E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308C56432A27BF1C005C001E /* Assets.xcassets */; };
 		308C568E2A27BF1C005C001E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C56452A27BF1C005C001E /* SafariWebExtensionHandler.swift */; };
@@ -31,12 +22,9 @@
 		30A8D0642A29467500FD77A6 /* iOS Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A8D0622A29467500FD77A6 /* iOS Assets.xcassets */; };
 		30A8D0662A29469A00FD77A6 /* macOS Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */; };
 		30A8D0672A29469A00FD77A6 /* macOS Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */; };
-		30EEF6B32A2D065A0054F1C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 30EEF6B22A2D065A0054F1C3 /* Icon.png */; };
-		30EEF6B42A2D065A0054F1C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 30EEF6B22A2D065A0054F1C3 /* Icon.png */; };
 		99B502F72A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
 		99B502F82A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
-		99B502FD2A4CC30A006397D1 /* HelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B502FC2A4CC30A006397D1 /* HelperView.swift */; };
-		99B502FE2A4CC30A006397D1 /* HelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B502FC2A4CC30A006397D1 /* HelperView.swift */; };
+		99B503372A4CC7A2006397D1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B503362A4CC7A2006397D1 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,10 +70,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		308C563E2A27BF1A005C001E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		308C56402A27BF1A005C001E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		308C56412A27BF1A005C001E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		308C56422A27BF1A005C001E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		308C56432A27BF1C005C001E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		308C56452A27BF1C005C001E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		308C56532A27BF1C005C001E /* REPLACEME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REPLACEME.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +80,6 @@
 		308C56602A27BF1C005C001E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		308C56652A27BF1C005C001E /* REPLACEME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REPLACEME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		308C56672A27BF1C005C001E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		308C566A2A27BF1C005C001E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		308C566C2A27BF1C005C001E /* Mute Chat for BoardGameArena.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mute Chat for BoardGameArena.entitlements"; sourceTree = "<group>"; };
 		308C56712A27BF1C005C001E /* REPLACEME Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "REPLACEME Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		308C56762A27BF1C005C001E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,9 +88,8 @@
 		308C56812A27BF1C005C001E /* Mute Chat for BoardGameArena.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mute Chat for BoardGameArena.entitlements"; sourceTree = "<group>"; };
 		30A8D0622A29467500FD77A6 /* iOS Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "iOS Assets.xcassets"; sourceTree = "<group>"; };
 		30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "macOS Assets.xcassets"; sourceTree = "<group>"; };
-		30EEF6B22A2D065A0054F1C3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		99B502F62A4B3E4D006397D1 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extension; path = ../../Extension; sourceTree = "<group>"; };
-		99B502FC2A4CC30A006397D1 /* HelperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperView.swift; sourceTree = "<group>"; };
+		99B503362A4CC7A2006397D1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,23 +140,9 @@
 		308C563B2A27BF1A005C001E /* Shared (App) */ = {
 			isa = PBXGroup;
 			children = (
-				308C56422A27BF1A005C001E /* ViewController.swift */,
-				99B502FC2A4CC30A006397D1 /* HelperView.swift */,
 				308C56432A27BF1C005C001E /* Assets.xcassets */,
-				308C563C2A27BF1A005C001E /* Resources */,
 			);
 			path = "Shared (App)";
-			sourceTree = "<group>";
-		};
-		308C563C2A27BF1A005C001E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				308C563D2A27BF1A005C001E /* Main.html */,
-				30EEF6B22A2D065A0054F1C3 /* Icon.png */,
-				308C56402A27BF1A005C001E /* Style.css */,
-				308C56412A27BF1A005C001E /* Script.js */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		308C56442A27BF1C005C001E /* Shared (Extension) */ = {
@@ -215,8 +183,8 @@
 			children = (
 				308C56672A27BF1C005C001E /* AppDelegate.swift */,
 				30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */,
-				308C56692A27BF1C005C001E /* Main.storyboard */,
 				308C566C2A27BF1C005C001E /* Mute Chat for BoardGameArena.entitlements */,
+				99B503362A4CC7A2006397D1 /* main.swift */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -367,14 +335,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30EEF6B32A2D065A0054F1C3 /* Icon.png in Resources */,
 				308C565C2A27BF1C005C001E /* LaunchScreen.storyboard in Resources */,
-				308C56822A27BF1C005C001E /* Main.html in Resources */,
-				308C56882A27BF1C005C001E /* Script.js in Resources */,
 				308C568C2A27BF1C005C001E /* Assets.xcassets in Resources */,
 				30A8D0632A29467500FD77A6 /* iOS Assets.xcassets in Resources */,
 				308C565F2A27BF1C005C001E /* Main.storyboard in Resources */,
-				308C56862A27BF1C005C001E /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,12 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308C56872A27BF1C005C001E /* Style.css in Resources */,
-				308C566B2A27BF1C005C001E /* Main.storyboard in Resources */,
-				308C56892A27BF1C005C001E /* Script.js in Resources */,
 				308C568D2A27BF1C005C001E /* Assets.xcassets in Resources */,
-				30EEF6B42A2D065A0054F1C3 /* Icon.png in Resources */,
-				308C56832A27BF1C005C001E /* Main.html in Resources */,
 				30A8D0662A29469A00FD77A6 /* macOS Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,9 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308C568A2A27BF1C005C001E /* ViewController.swift in Sources */,
 				308C56572A27BF1C005C001E /* AppDelegate.swift in Sources */,
-				99B502FD2A4CC30A006397D1 /* HelperView.swift in Sources */,
 				308C56592A27BF1C005C001E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,9 +460,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308C568B2A27BF1C005C001E /* ViewController.swift in Sources */,
+				99B503372A4CC7A2006397D1 /* main.swift in Sources */,
 				308C56682A27BF1C005C001E /* AppDelegate.swift in Sources */,
-				99B502FE2A4CC30A006397D1 /* HelperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,14 +497,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		308C563D2A27BF1A005C001E /* Main.html */ = {
-			isa = PBXVariantGroup;
-			children = (
-				308C563E2A27BF1A005C001E /* Base */,
-			);
-			name = Main.html;
-			sourceTree = "<group>";
-		};
 		308C565A2A27BF1C005C001E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -561,14 +509,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				308C565E2A27BF1C005C001E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		308C56692A27BF1C005C001E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				308C566A2A27BF1C005C001E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -908,7 +848,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -943,7 +883,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

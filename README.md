@@ -38,7 +38,7 @@ Note: “Open the project config” means double-click the app name at the top o
 
 - [Change the Safari app name to your app’s name](https://stackoverflow.com/a/20418989)
 - Create a new bundle identifier in the format `com.domain.App-Name` 
-	- Update `Shared (App)/ViewController.Swift` with the identifier
+	- Update `Shared (App)/ViewController.swift` with the identifier
 	- Open the project config and go to `AppName (iOS)` > Signing & Capabilities and update the bundle identifier
 	- Repeat for the macOS app and both extensions
 - Update `macOS (App)/AppDelegate.swift` with a help documentation link
