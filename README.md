@@ -37,10 +37,11 @@ Do the following steps in Xcode.
 Note: “Open the project config” means double-click the app name at the top of the file view in Xcode.
 
 - [Change the Safari app name to your app’s name](https://stackoverflow.com/a/20418989)
+- Open `Shared (App)/Models.swift` and update `APP_NAME` with your app's name
 - Create a new bundle identifier in the format `com.domain.App-Name` 
-	- Update `Shared (App)/ViewController.swift` with the identifier
 	- Open the project config and go to `AppName (iOS)` > Signing & Capabilities and update the bundle identifier
-	- Repeat for the macOS app and both extensions
+	- Repeat for the macOS app
+- 
 - Update `macOS (App)/AppDelegate.swift` with a help documentation link
 - Under project config > Signing & Capabilities, set the team for both apps and both extensions
 - Under project config > General, update the display name for iOS and macOS

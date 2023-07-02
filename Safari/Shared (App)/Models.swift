@@ -8,5 +8,5 @@
 import Foundation
 
 let MAC_WINDOW_SIZE: CGFloat = 400
-let MAC_EXTENSION_BUNDLE_ID = ""
-let APP_NAME = ""
+let MAC_EXTENSION_BUNDLE_ID = "REPLACEME"
+let APP_NAME = "REPLACEME"
