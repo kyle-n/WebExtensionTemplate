@@ -53,9 +53,6 @@ Note: “Open the project config” means double-click the app name at the top o
 	- Repeat for App Name Extension (macOS) > Build Settings > Code Signing Entitlements
 - Open the project config and go to App Name Extension (macOS) > Build Settings and find the setting for “Bundle Display Name.” Update its value with your app’s name
 - Open `Shared (App)/Models.swift` and update `MAC_EXTENSION_BUNDLE_ID` with your macOS bundle extension and app name
-- Update `Shared (App)/Resources/Main.html` with your app's name
-- Update `Shared (App)/Resources/Script.js` with your app's name
-- Update `Extension/public/settings.html` with your app's name
 - Go to Product > Schemes > Manage Schemes… and update the iOS and macOS schemes with your app’s name
 - iOS app icon:
 	- Add the app icon to  `iOS (App)/iOS Assets` as `AppIcon` with all the required sizes
