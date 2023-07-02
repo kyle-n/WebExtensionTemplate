@@ -26,6 +26,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         window.contentView = NSHostingView(rootView: AppView().frame(width: MAC_WINDOW_SIZE, height: MAC_WINDOW_SIZE))
         
+        initAppMenu()
+    }
+    
+    private func initAppMenu() {
+        let mainMenu = NSMenu()
+        NSApp.mainMenu = mainMenu
+        let appMenuItem = NSMenuItem()
+        mainMenu.addItem(appMenuItem)
+        let appMenu = NSMenu()
+        appMenuItem.submenu = appMenu
+        appMenu.addItem(withTitle:"Quit \(APP_NAME)", action:#selector(NSApplication.terminate), keyEquivalent: "q")
     }
     
     @objc
