@@ -39,9 +39,12 @@ Note: “Open the project config” means double-click the app name at the top o
 - [Change the Safari app name to your app’s name](https://stackoverflow.com/a/20418989)
 - Open `Shared (App)/Models.swift` and update `APP_NAME` with your app's name
 - Create a new bundle identifier in the format `com.domain.App-Name` 
-	- Open the project config and go to `AppName (iOS)` > Signing & Capabilities and update the bundle identifier
+	- Open the project config and go to `AppName (iOS)` > Signing & Capabilities and update the bundle id
 	- Repeat for the macOS app
-- 
+- Create a new bundle identifier. It should be your app bundle identifier with `.Extension` added onto the end. So if your app bundle ID is `com.domain.App-Name`, this should be `com.domain.App-Name.Extension`
+	- Open the project config and go to `AppName Extension (iOS)` > Signing & Capabilities and update the bundle id with the extension bundle id
+	- Repeat for the macOS extension
+	- Update `MAC_EXTENSION_BUNDLE_ID` in `Shared (App)/Models.swift` with the extension bundle ID as well
 - Update `macOS (App)/AppDelegate.swift` with a help documentation link
 - Under project config > Signing & Capabilities, set the team for both apps and both extensions
 - Under project config > General, update the display name for iOS and macOS
