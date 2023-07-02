@@ -25,6 +25,12 @@
 		99B502F72A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
 		99B502F82A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
 		99B503372A4CC7A2006397D1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B503362A4CC7A2006397D1 /* main.swift */; };
+		99B503392A5224ED006397D1 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B503382A5224ED006397D1 /* AppView.swift */; };
+		99B5033B2A52250E006397D1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B5033A2A52250E006397D1 /* Models.swift */; };
+		99B5033C2A52250E006397D1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B5033A2A52250E006397D1 /* Models.swift */; };
+		99B5033D2A52250E006397D1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B5033A2A52250E006397D1 /* Models.swift */; };
+		99B5033E2A52250E006397D1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B5033A2A52250E006397D1 /* Models.swift */; };
+		99E155EE2A522E1D005325D0 /* SafariConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E155ED2A522E1D005325D0 /* SafariConnector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +96,9 @@
 		30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "macOS Assets.xcassets"; sourceTree = "<group>"; };
 		99B502F62A4B3E4D006397D1 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extension; path = ../../Extension; sourceTree = "<group>"; };
 		99B503362A4CC7A2006397D1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		99B503382A5224ED006397D1 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		99B5033A2A52250E006397D1 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		99E155ED2A522E1D005325D0 /* SafariConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariConnector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				308C56432A27BF1C005C001E /* Assets.xcassets */,
+				99B5033A2A52250E006397D1 /* Models.swift */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
@@ -185,6 +195,8 @@
 				30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */,
 				308C566C2A27BF1C005C001E /* Mute Chat for BoardGameArena.entitlements */,
 				99B503362A4CC7A2006397D1 /* main.swift */,
+				99B503382A5224ED006397D1 /* AppView.swift */,
+				99E155ED2A522E1D005325D0 /* SafariConnector.swift */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -451,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B5033B2A52250E006397D1 /* Models.swift in Sources */,
 				308C56572A27BF1C005C001E /* AppDelegate.swift in Sources */,
 				308C56592A27BF1C005C001E /* SceneDelegate.swift in Sources */,
 			);
@@ -462,6 +475,9 @@
 			files = (
 				99B503372A4CC7A2006397D1 /* main.swift in Sources */,
 				308C56682A27BF1C005C001E /* AppDelegate.swift in Sources */,
+				99E155EE2A522E1D005325D0 /* SafariConnector.swift in Sources */,
+				99B503392A5224ED006397D1 /* AppView.swift in Sources */,
+				99B5033C2A52250E006397D1 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +486,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				308C568E2A27BF1C005C001E /* SafariWebExtensionHandler.swift in Sources */,
+				99B5033D2A52250E006397D1 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				308C568F2A27BF1C005C001E /* SafariWebExtensionHandler.swift in Sources */,
+				99B5033E2A52250E006397D1 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,6 +860,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/REPLACEME.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -877,6 +896,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/REPLACEME.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";

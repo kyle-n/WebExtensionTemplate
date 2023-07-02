@@ -24,7 +24,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.center()
         window.makeKeyAndOrderFront(nil)
         
-        window.contentView = NSHostingView(rootView: Text("Hi!").frame(width: 400, height: 400))
+        window.contentView = NSHostingView(rootView: Text("Hi!").frame(width: MAC_WINDOW_SIZE, height: MAC_WINDOW_SIZE))
         
     }
     
