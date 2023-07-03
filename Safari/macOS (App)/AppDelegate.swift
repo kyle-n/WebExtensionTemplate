@@ -32,11 +32,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private func initAppMenu() {
         let mainMenu = NSMenu()
         NSApp.mainMenu = mainMenu
+        
         let appMenuItem = NSMenuItem()
         mainMenu.addItem(appMenuItem)
         let appMenu = NSMenu()
         appMenuItem.submenu = appMenu
         appMenu.addItem(withTitle:"Quit \(APP_NAME)", action:#selector(NSApplication.terminate), keyEquivalent: "q")
+        
+        let helpMenuItem = NSMenuItem()
+        mainMenu.addItem(helpMenuItem)
+        let helpMenu = NSMenu(title: "Help")
+        helpMenuItem.submenu = helpMenu
+        helpMenu.addItem(withTitle: "\(APP_NAME) Help", action: #selector(openHelpPage), keyEquivalent: "")
     }
     
     @objc
