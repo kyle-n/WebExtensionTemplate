@@ -22,7 +22,7 @@ struct AppView: View {
 }
 
 struct AppIconView: View {
-    private let size: CGFloat = 50
+    private let size: CGFloat = 100
     let appIcon = NSImage(named: "AppIcon")!
     
     var body: some View {
