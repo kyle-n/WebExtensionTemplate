@@ -52,6 +52,7 @@ Note: “Open the project config” means double-click the app name at the top o
 	- Open the project config and to go to App Name (macOS) > Build Settings and find the setting for “Code Signing Entitlements.” Replace `REPLACEME.entitlements` with the name of your new entitlements file
 	- Repeat for App Name Extension (macOS) > Build Settings > Code Signing Entitlements
 - Open the project config and go to App Name Extension (macOS) > Build Settings and find the setting for “Bundle Display Name.” Update its value with your app’s name
+	- Repeat for App Name Extension (iOS)
 - Open `Shared (App)/Models.swift` and update `MAC_EXTENSION_BUNDLE_ID` with your macOS bundle extension and app name
 - Go to Product > Schemes > Manage Schemes… and update the iOS and macOS schemes with your app’s name
 - iOS app icon:
