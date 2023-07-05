@@ -19,6 +19,8 @@
 		30A8D0642A29467500FD77A6 /* iOS Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A8D0622A29467500FD77A6 /* iOS Assets.xcassets */; };
 		30A8D0662A29469A00FD77A6 /* macOS Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */; };
 		30A8D0672A29469A00FD77A6 /* macOS Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */; };
+		30DD362A2A55BF1D00361103 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD36292A55BF1D00361103 /* Views.swift */; };
+		30DD362B2A55BF1D00361103 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD36292A55BF1D00361103 /* Views.swift */; };
 		99B502F72A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
 		99B502F82A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
 		99B503372A4CC7A2006397D1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B503362A4CC7A2006397D1 /* main.swift */; };
@@ -86,6 +88,7 @@
 		308C56802A27BF1C005C001E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30A8D0622A29467500FD77A6 /* iOS Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "iOS Assets.xcassets"; sourceTree = "<group>"; };
 		30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "macOS Assets.xcassets"; sourceTree = "<group>"; };
+		30DD36292A55BF1D00361103 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 		99B502F62A4B3E4D006397D1 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extension; path = ../../Extension; sourceTree = "<group>"; };
 		99B503362A4CC7A2006397D1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		99B503382A5224ED006397D1 /* macOS AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macOS AppView.swift"; sourceTree = "<group>"; };
@@ -145,6 +148,7 @@
 			children = (
 				308C56432A27BF1C005C001E /* Assets.xcassets */,
 				99B5033A2A52250E006397D1 /* Models.swift */,
+				30DD36292A55BF1D00361103 /* Views.swift */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
@@ -454,6 +458,7 @@
 			files = (
 				99B5033B2A52250E006397D1 /* Models.swift in Sources */,
 				308C56572A27BF1C005C001E /* iOS AppView.swift in Sources */,
+				30DD362A2A55BF1D00361103 /* Views.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +468,7 @@
 			files = (
 				99B503372A4CC7A2006397D1 /* main.swift in Sources */,
 				308C56682A27BF1C005C001E /* AppDelegate.swift in Sources */,
+				30DD362B2A55BF1D00361103 /* Views.swift in Sources */,
 				99E155EE2A522E1D005325D0 /* SafariConnector.swift in Sources */,
 				99B503392A5224ED006397D1 /* macOS AppView.swift in Sources */,
 				99B5033C2A52250E006397D1 /* Models.swift in Sources */,
