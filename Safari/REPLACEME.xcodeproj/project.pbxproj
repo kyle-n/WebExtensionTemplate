@@ -21,8 +21,16 @@
 		30A8D0672A29469A00FD77A6 /* macOS Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */; };
 		30DD362A2A55BF1D00361103 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD36292A55BF1D00361103 /* Views.swift */; };
 		30DD362B2A55BF1D00361103 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD36292A55BF1D00361103 /* Views.swift */; };
-		99B502F72A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
-		99B502F82A4B3E4D006397D1 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 99B502F62A4B3E4D006397D1 /* Extension */; };
+		30DD36392A55C01F00361103 /* public in Resources */ = {isa = PBXBuildFile; fileRef = 30DD362D2A55C01E00361103 /* public */; };
+		30DD363A2A55C01F00361103 /* public in Resources */ = {isa = PBXBuildFile; fileRef = 30DD362D2A55C01E00361103 /* public */; };
+		30DD363D2A55C01F00361103 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 30DD362F2A55C01F00361103 /* images */; };
+		30DD363E2A55C01F00361103 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 30DD362F2A55C01F00361103 /* images */; };
+		30DD363F2A55C01F00361103 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 30DD36302A55C01F00361103 /* dist */; };
+		30DD36402A55C01F00361103 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 30DD36302A55C01F00361103 /* dist */; };
+		30DD36432A55C01F00361103 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 30DD36322A55C01F00361103 /* _locales */; };
+		30DD36442A55C01F00361103 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 30DD36322A55C01F00361103 /* _locales */; };
+		30DD36472A55C01F00361103 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 30DD36342A55C01F00361103 /* manifest.json */; };
+		30DD36482A55C01F00361103 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 30DD36342A55C01F00361103 /* manifest.json */; };
 		99B503372A4CC7A2006397D1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B503362A4CC7A2006397D1 /* main.swift */; };
 		99B503392A5224ED006397D1 /* macOS AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B503382A5224ED006397D1 /* macOS AppView.swift */; };
 		99B5033B2A52250E006397D1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B5033A2A52250E006397D1 /* Models.swift */; };
@@ -89,7 +97,11 @@
 		30A8D0622A29467500FD77A6 /* iOS Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "iOS Assets.xcassets"; sourceTree = "<group>"; };
 		30A8D0652A29469A00FD77A6 /* macOS Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "macOS Assets.xcassets"; sourceTree = "<group>"; };
 		30DD36292A55BF1D00361103 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
-		99B502F62A4B3E4D006397D1 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extension; path = ../../Extension; sourceTree = "<group>"; };
+		30DD362D2A55C01E00361103 /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; name = public; path = ../../../Extension/public; sourceTree = "<group>"; };
+		30DD362F2A55C01F00361103 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../Extension/images; sourceTree = "<group>"; };
+		30DD36302A55C01F00361103 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ../../../Extension/dist; sourceTree = "<group>"; };
+		30DD36322A55C01F00361103 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../../Extension/_locales; sourceTree = "<group>"; };
+		30DD36342A55C01F00361103 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = ../../../Extension/manifest.json; sourceTree = "<group>"; };
 		99B503362A4CC7A2006397D1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		99B503382A5224ED006397D1 /* macOS AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macOS AppView.swift"; sourceTree = "<group>"; };
 		99B5033A2A52250E006397D1 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
@@ -156,7 +168,7 @@
 		308C56442A27BF1C005C001E /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				99B502F62A4B3E4D006397D1 /* Extension */,
+				30DD362C2A55BFDB00361103 /* Resources */,
 				308C56452A27BF1C005C001E /* SafariWebExtensionHandler.swift */,
 			);
 			path = "Shared (Extension)";
@@ -211,6 +223,18 @@
 				308C56802A27BF1C005C001E /* Info.plist */,
 			);
 			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		30DD362C2A55BFDB00361103 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30DD36322A55C01F00361103 /* _locales */,
+				30DD36302A55C01F00361103 /* dist */,
+				30DD362F2A55C01F00361103 /* images */,
+				30DD36342A55C01F00361103 /* manifest.json */,
+				30DD362D2A55C01E00361103 /* public */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,8 +384,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B502F72A4B3E4D006397D1 /* Extension in Resources */,
+				30DD363D2A55C01F00361103 /* images in Resources */,
+				30DD363F2A55C01F00361103 /* dist in Resources */,
+				30DD36472A55C01F00361103 /* manifest.json in Resources */,
 				30A8D0642A29467500FD77A6 /* iOS Assets.xcassets in Resources */,
+				30DD36432A55C01F00361103 /* _locales in Resources */,
+				30DD36392A55C01F00361103 /* public in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,8 +397,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B502F82A4B3E4D006397D1 /* Extension in Resources */,
+				30DD363E2A55C01F00361103 /* images in Resources */,
+				30DD36402A55C01F00361103 /* dist in Resources */,
+				30DD36482A55C01F00361103 /* manifest.json in Resources */,
 				30A8D0672A29469A00FD77A6 /* macOS Assets.xcassets in Resources */,
+				30DD36442A55C01F00361103 /* _locales in Resources */,
+				30DD363A2A55C01F00361103 /* public in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
