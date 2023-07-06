@@ -19,18 +19,23 @@ struct AppView: App {
 struct InstructionsView: View {
     var body: some View {
         VStack {
+            AppIconView()
+                .cornerRadius(15)
+                .padding(.bottom)
+                .padding(.bottom)
             ForEach(steps, id: \.self) { step in
                 Text(step)
-                    .font(.body)
+                    .font(.system(size: 20))
+                    .padding(.bottom)
             }
         }
     }
     
     private let steps = [
-        "Open the Settings app",
-        "Tap Safari",
-        "Tap Extensions",
-        "Tap \(APP_NAME)",
-        "Enable \(APP_NAME) in the upper right"
-    ]
+        "Open **Settings**",
+        "Tap **Safari**",
+        "Tap **Extensions**",
+        "Tap **\(APP_NAME)**",
+        "Enable **\(APP_NAME)**"
+    ].map { try! AttributedString(markdown: $0) }
 }
