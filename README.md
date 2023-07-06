@@ -4,6 +4,23 @@ Create a browser extension for Chrome, Firefox and Safari in no time.
 
 WebExtensionTemplate lets you skip the boilerplate and write a [Web Extension](https://developer.mozilla.org/en-US/docs/Glossary/WebExtensions) with [TypeScript](https://www.typescriptlang.org) and [Svelte](https://www.typescriptlang.org).
 
+## Features
+
+- Popup window written in Svelte when you click the extension toolbar icon 
+- Extension settings page written in Svelte
+- Lightning-fast build process to compile TypeScript and Svelte source with [esbuild](https://esbuild.github.io)
+- Build scripts to compile for Chrome, Firefox and Safari
+- Sourcemaps for local builds
+- Minifies production builds
+- iOS and macOS container apps written in SwiftUI for the Safari extension (no Swift / SwiftUI knowledge required to use)
+- [Prettier](https://prettier.io) formatting
+- [webextension-polyfill](https://www.npmjs.com/package/webextension-polyfill) to add a couple missing Promise-based APIs to Chrome
+
+### Future roadmap
+
+- Separate branch with the popup and settings page written in React
+- Tests
+
 ## Setup
 
 First, fork this repository. Then, follow the steps below. By the end of this, you should be able to search across the project for `REPLACEME` and get no results.
