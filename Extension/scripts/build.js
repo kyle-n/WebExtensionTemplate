@@ -30,7 +30,7 @@ async function main() {
 
   const popupJob = build({
     ...commonConfig,
-    entryPoints: ['./src/popup/popup.ts'],
+    entryPoints: ['./src/popup/popup.tsx'],
     outbase: './src/popup',
     outdir: './dist',
     mainFields: ['module', 'main', 'browser']
@@ -38,7 +38,7 @@ async function main() {
 
   const settingsJob = build({
     ...commonConfig,
-    entryPoints: ['./src/settings/settings.ts'],
+    entryPoints: ['./src/settings/settings.tsx'],
     outbase: './src/settings',
     outdir: './dist',
     mainFields: ['module', 'main', 'browser']
