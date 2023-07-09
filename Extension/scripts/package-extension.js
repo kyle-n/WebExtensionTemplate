@@ -7,21 +7,21 @@ main();
 
 async function main() {
   await exec('npm run build:prod');
-  const chromeDir = 'chrome-extension';
-  if (fs.existsSync(chromeDir)) {
-    await fs.rm(chromeDir, { recursive: true });
+  const packageDir = 'packaged-extension';
+  if (fs.existsSync(packageDir)) {
+    await fs.rm(packageDir, { recursive: true });
   }
-  await fs.mkdir(chromeDir);
+  await fs.mkdir(packageDir);
   const zipContents = ['_locales', 'dist', 'images', 'public', 'manifest.json'];
   for await (const filename of zipContents) {
-    await fs.copy(filename, `${chromeDir}/${filename}`);
+    await fs.copy(filename, `${packageDir}/${filename}`);
   }
 
   zipper.sync
-    .zip(chromeDir)
+    .zip(packageDir)
     .compress()
-    .save(chromeDir + '.zip');
+    .save(packageDir + '.zip');
 
-  await fs.rm(chromeDir, { recursive: true });
-  console.log('Built for Chrome');
+  await fs.rm(packageDir, { recursive: true });
+  console.log('Extension packaged');
 }

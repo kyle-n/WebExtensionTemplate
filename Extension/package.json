@@ -7,7 +7,7 @@
     "format": "prettier --write .",
     "build": "node scripts/build.js",
     "build:prod": "node scripts/prod-build.js",
-    "build:chrome": "node scripts/chrome-build.js",
+    "build:chrome": "node scripts/package-extension.js",
     "build:firefox": "node scripts/firefox-build.js"
   },
   "keywords": [],
