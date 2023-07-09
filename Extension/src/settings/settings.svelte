@@ -9,7 +9,7 @@
   let appSettings: AppSettings | undefined;
   settingsConnector
     .getAppSettings()
-    .then((settingsFromStorage) => (appSettings = settingsFromStorage));
+    .then(settingsFromStorage => (appSettings = settingsFromStorage));
 
   const updateDisplayHelpMessage = (e: InputChangeEvent) => {
     const target = e.target as HTMLInputElement;

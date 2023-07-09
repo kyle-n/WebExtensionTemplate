@@ -1,7 +1,7 @@
 import browser from 'webextension-polyfill';
 import { type BrowserMessageType, type ColorScheme } from './models';
 
-browser.runtime.onMessage.addListener((message) => {
+browser.runtime.onMessage.addListener(message => {
   console.log('got message', message);
   switch (message.type as BrowserMessageType) {
     case 'getColorScheme': {
