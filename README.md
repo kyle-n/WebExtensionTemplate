@@ -2,14 +2,14 @@
 
 Create a browser extension for Chrome, Firefox and Safari in no time.
 
-WebExtensionTemplate lets you skip the boilerplate and write a [Web Extension](https://developer.mozilla.org/en-US/docs/Glossary/WebExtensions) with [TypeScript](https://www.typescriptlang.org) and [Svelte](https://www.typescriptlang.org).
+WebExtensionTemplate lets you skip the boilerplate and write a [Web Extension](https://developer.mozilla.org/en-US/docs/Glossary/WebExtensions) with [TypeScript](https://www.typescriptlang.org) and [Svelte](https://www.typescriptlang.org) or [React](https://react.dev).
 
 ## Features
 
-- Popup window written in Svelte when you click the extension toolbar icon 
-- Extension settings page written in Svelte
-- Lightning-fast build process to compile TypeScript and Svelte source with [esbuild](https://esbuild.github.io)
-- Build scripts to compile for Chrome, Firefox and Safari
+- Popup window written in Svelte ([or React](https://github.com/kyle-n/WebExtensionTemplate/tree/react)) when you click the extension toolbar icon 
+- Extension settings page written in Svelte ([or React](https://github.com/kyle-n/WebExtensionTemplate/tree/react))
+- Lightning-fast build process to compile source code with [esbuild](https://esbuild.github.io)
+- Build scripts to package the extension for Chrome, Firefox and Safari
 - Sourcemaps for local builds
 - Minifies production builds
 - iOS and macOS container apps written in SwiftUI for the Safari extension (no Swift / SwiftUI knowledge required to use)
@@ -82,7 +82,7 @@ Note: “Open the project config” means double-click the app name at the top o
 
 All `npm` commands should be run in `Extension`. Safari extensions should be built in Xcode. 
 
-| browser | local | production |
+| Browser | Local | Production |
 | - | - | - |
 | Chrome | `npm run build` | `npm run build:chrome` |
 | Firefox | `npm run build` | `npm run build:firefox` |
