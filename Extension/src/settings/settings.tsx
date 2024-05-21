@@ -8,7 +8,7 @@ type InputChangeEvent = Event & {
 };
 
 const App = () => {
-  const [appSettings, setAppSettings] = useState<AppSettings | undefined>(
+  let [appSettings, setAppSettings] = useState<AppSettings | undefined>(
     undefined
   );
 
