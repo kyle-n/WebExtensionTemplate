@@ -1,5 +1,4 @@
 {
-  "extends": "@tsconfig/svelte/tsconfig.json",
   "compilerOptions": {
     "target": "ES2016",
     "module": "ES2022",
@@ -13,8 +12,7 @@
     "alwaysStrict": true,
     "resolveJsonModule": true,
     "importsNotUsedAsValues": "remove",
-    "jsx": "react",
-    "types": ["svelte"]
+    "jsx": "react"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules/*", "dist/*"]
